@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&family=Roboto:wght@400;500;700&display=swap');
+
+body{
+    background-color: lightcoral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+p{
+    color: #333;
+}
+
+
+.container{
+    position: relative;
+    width: 100%;
+    margin: 55px;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.container .side_left{
+    position: relative;
+    background: #003147;
+    padding: 40px;
+}
+
+.container .side_right{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+
+.profile_texto{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 25px;
+    border-bottom: 1px solid gray;
+}
+
+.profile_texto .imagemgio{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.profile_texto .imagemgio img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile_texto h2{
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.profile_texto h2 span{
+    font-size: 0.8em;
+    font-weight: 300;
+}
+
+.info_contact{
+    padding-top: 45px;
+}
+
+.title{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+.info_contact ul{
+    position: relative;
+}
+
+.info_contact ul li{
+    list-style: none;
+    position: relative;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.info_contact ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #03a9f4;
+}
+
+.info_contact ul li span{
+    color: #fff;
+    font-weight: 300;
+}
+
+.info_contact.educacao li{
+    margin-bottom: 15px;
+}
+.info_contact.educacao h5{
+    color: #03a9f4;
+    font-weight: 500;
+
+}
+.info_contact.educacao h4:nth-child(2){
+    color: #fff;
+    font-weight: 500;
+}
+.info_contact.educacao h4{
+    color: #fff;
+    font-weight: 300;
+}
+
+.info_contact.lingua .percent{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: #081921;
+    display: block;
+    margin-top: 5px;
+}
+
+.info_contact.lingua .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #03a9f4;
+}
+
+.about{
+    margin-bottom: 50px;
+}
+
+.about:last-child{
+    margin-bottom: 0;
+}
+
+.title2{
+    color: #0e4863;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.about .box{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+.about .box .year_company{
+    min-width: 150px;
+
+}
+
+.about .box .year_company h5{
+    text-transform: uppercase;
+    color: #848c90;
+    font-weight: 600;
+}
+
+.about .box .text h4{
+    text-transform: uppercase;
+    color: #2a7da2;
+    font-size: 16px;
+}
+
